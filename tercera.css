@@ -1,0 +1,17 @@
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+}
+.btn9 {
+    background-color: rgb(252, 151, 0);
+    width: 140px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}

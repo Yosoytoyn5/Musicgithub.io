@@ -1,0 +1,118 @@
+.img0 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1; /* Para que la imagen quede en el fondo */
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir el fondo */
+    filter: blur(8px); /* Aplica el desenfoque */
+    transform: scale(1.05); /* Escala un poco para evitar bordes visibles tras el blur */
+}
+
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Reduce el espacio entre la imagen y los botones */
+}
+
+
+
+.btn1 {
+    background-color: rgb(243, 0, 0);
+    width: 140px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.btn1:hover {
+    background-color: rgb(168, 49, 49);
+}
+.btn2 {
+    background-color: rgb(0, 38, 255);
+    width: 140px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.btn2:hover {
+    background-color: rgb(40, 42, 151);
+}
+.btn3 {
+    background-color: rgb(25, 228, 6);
+    width: 140px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.btn3:hover {
+    background-color: rgb(47, 94, 43);
+}
+.tex1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 252, 252);
+}
+.portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Ajusta la altura según sea necesario */
+}
+
+.foto-de-portada {
+    width: 150px;  /* Ajusta el tamaño del perfil */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* Recorta la imagen para que llene el círculo */
+    border: 3px solid #fff; /* Opcional: añade un borde */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+}
+.texbajo {
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 252, 252);
+    font-size: 0.9rem; /* Puedes ajustar este valor */
+}
+.btn4 {
+    background-color: rgb(252, 151, 0);
+    width: 140px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.btn4:hover {
+    background-color: rgb(82, 62, 34);
+}
