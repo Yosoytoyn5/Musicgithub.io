@@ -19,7 +19,7 @@
 .cover {
     width: 300px;
     height: 300px;
-    border-radius: 200px;
+    border-radius: 10px;
     margin-bottom: 10pxx;
     align-self: center;
     animation: fadeInScale 1.5s ease-out;  /* Añadimos la animación aquí */
